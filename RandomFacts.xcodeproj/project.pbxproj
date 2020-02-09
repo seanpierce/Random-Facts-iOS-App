@@ -13,6 +13,8 @@
 		D1543D7323EF9F870032EB5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1543D7123EF9F870032EB5D /* Main.storyboard */; };
 		D1543D7523EF9F880032EB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1543D7423EF9F880032EB5D /* Assets.xcassets */; };
 		D1543D7823EF9F880032EB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1543D7623EF9F880032EB5D /* LaunchScreen.storyboard */; };
+		D1543D8023F0575E0032EB5D /* RandomFactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1543D7F23F0575E0032EB5D /* RandomFactProvider.swift */; };
+		D1543D8223F05AC80032EB5D /* RandomColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1543D8123F05AC80032EB5D /* RandomColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D1543D7423EF9F880032EB5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1543D7723EF9F880032EB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1543D7923EF9F880032EB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1543D7F23F0575E0032EB5D /* RandomFactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFactProvider.swift; sourceTree = "<group>"; };
+		D1543D8123F05AC80032EB5D /* RandomColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				D1543D6B23EF9F870032EB5D /* AppDelegate.swift */,
 				D1543D6D23EF9F870032EB5D /* SceneDelegate.swift */,
 				D1543D6F23EF9F870032EB5D /* ViewController.swift */,
+				D1543D8123F05AC80032EB5D /* RandomColorProvider.swift */,
+				D1543D7F23F0575E0032EB5D /* RandomFactProvider.swift */,
 				D1543D7123EF9F870032EB5D /* Main.storyboard */,
 				D1543D7423EF9F880032EB5D /* Assets.xcassets */,
 				D1543D7623EF9F880032EB5D /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1543D7023EF9F870032EB5D /* ViewController.swift in Sources */,
+				D1543D8023F0575E0032EB5D /* RandomFactProvider.swift in Sources */,
 				D1543D6C23EF9F870032EB5D /* AppDelegate.swift in Sources */,
+				D1543D8223F05AC80032EB5D /* RandomColorProvider.swift in Sources */,
 				D1543D6E23EF9F870032EB5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
