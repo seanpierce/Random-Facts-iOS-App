@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var randomFactLabel: UILabel!
     
+    @IBOutlet weak var randomFactButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         getRandomFact()
@@ -30,7 +32,9 @@ class ViewController: UIViewController {
     }
     
     func updateColor() {
-        view.backgroundColor = randomColorProvider.get()
+        let color = randomColorProvider.get()
+        view.backgroundColor = color
+        randomFactButton.setTitleColor(color, for: .normal)
     }
 }
 

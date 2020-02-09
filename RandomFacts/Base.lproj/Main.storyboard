@@ -60,6 +60,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="randomFactButton" destination="LDX-E8-o6V" id="Zg6-9b-OUc"/>
                         <outlet property="randomFactLabel" destination="cA0-nv-KHJ" id="Mf9-oa-qIc"/>
                     </connections>
                 </viewController>
