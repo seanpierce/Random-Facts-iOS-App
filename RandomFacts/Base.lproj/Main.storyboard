@@ -16,26 +16,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="GzA-tr-WSq">
-                                <rect key="frame" x="45" y="297.5" width="324.5" height="301"/>
+                                <rect key="frame" x="20" y="263.5" width="374" height="369"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbT-aA-zYK">
-                                        <rect key="frame" x="0.0" y="0.0" width="324.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jkljljlkjljlljkljljlkjjjjjjjjjjjjjjjjjjjjkjkjkjkjkjkjkjkjkjkjkjk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cA0-nv-KHJ">
-                                        <rect key="frame" x="0.0" y="120.5" width="324.5" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jkljljlkjljlljkljljlkjjjjjjjjjjjjjjjjjjjjkjkjkjkjkjkjkjkjkjkjkjk" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cA0-nv-KHJ">
+                                        <rect key="frame" x="0.0" y="129" width="374" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="vc4-od-c3K"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDX-E8-o6V">
-                                        <rect key="frame" x="0.0" y="241" width="324.5" height="60"/>
+                                        <rect key="frame" x="0.0" y="309" width="374" height="60"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="c2h-aV-6Ys"/>
                                         </constraints>
-                                        <state key="normal" title="Show Another Random Fact"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="Show Another Random Fact">
+                                            <color key="titleColor" red="0.76470588240000004" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="showAnotherFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="DXE-KI-aRJ"/>
                                         </connections>
@@ -45,8 +52,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.76470588235294112" green="0.25882352941176467" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="GzA-tr-WSq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4o3-tO-g9k"/>
                             <constraint firstItem="GzA-tr-WSq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wz9-L4-AOq"/>
                             <constraint firstItem="GzA-tr-WSq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wFZ-Do-Tbg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GzA-tr-WSq" secondAttribute="trailing" constant="20" id="y23-v3-Vik"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
