@@ -15,23 +15,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="124" translatesAutoresizingMaskIntoConstraints="NO" id="GzA-tr-WSq">
-                                <rect key="frame" x="112" y="289" width="191" height="319"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="GzA-tr-WSq">
+                                <rect key="frame" x="45" y="297.5" width="324.5" height="301"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbT-aA-zYK">
-                                        <rect key="frame" x="40" y="0.0" width="111.5" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbT-aA-zYK">
+                                        <rect key="frame" x="0.0" y="0.0" width="324.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Random Fact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cA0-nv-KHJ">
-                                        <rect key="frame" x="37.5" y="144.5" width="116.5" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jkljljlkjljlljkljljlkjjjjjjjjjjjjjjjjjjjjkjkjkjkjkjkjkjkjkjkjkjk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cA0-nv-KHJ">
+                                        <rect key="frame" x="0.0" y="120.5" width="324.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDX-E8-o6V">
-                                        <rect key="frame" x="0.0" y="289" width="191" height="30"/>
+                                        <rect key="frame" x="0.0" y="241" width="324.5" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="c2h-aV-6Ys"/>
+                                        </constraints>
                                         <state key="normal" title="Show Another Random Fact"/>
                                         <connections>
                                             <action selector="showAnotherFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="DXE-KI-aRJ"/>
@@ -41,6 +44,10 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.76470588235294112" green="0.25882352941176467" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="GzA-tr-WSq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wz9-L4-AOq"/>
+                            <constraint firstItem="GzA-tr-WSq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wFZ-Do-Tbg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
