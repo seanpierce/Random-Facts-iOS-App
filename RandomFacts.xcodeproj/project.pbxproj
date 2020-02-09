@@ -28,6 +28,7 @@
 		D1543D7923EF9F880032EB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1543D7F23F0575E0032EB5D /* RandomFactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFactProvider.swift; sourceTree = "<group>"; };
 		D1543D8123F05AC80032EB5D /* RandomColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorProvider.swift; sourceTree = "<group>"; };
+		D1D8E3A023F0680700D1B210 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		D1543D5F23EF9F870032EB5D = {
 			isa = PBXGroup;
 			children = (
+				D1D8E3A023F0680700D1B210 /* README.md */,
 				D1543D6A23EF9F870032EB5D /* RandomFacts */,
 				D1543D6923EF9F870032EB5D /* Products */,
 			);
